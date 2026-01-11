@@ -57,6 +57,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B013D8A2F145DF8009662C0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6B9813F12C356353005CFCB7 /* LaunchScreen.storyboard */,
+				6B9813EF2C356353005CFCB7 /* Assets.xcassets */,
+				6B9813E62C356352005CFCB7 /* AppDelegate.swift */,
+				6B9813E82C356352005CFCB7 /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		6B9813DA2C356352005CFCB7 = {
 			isa = PBXGroup;
 			children = (
@@ -76,15 +87,12 @@
 		6B9813E52C356352005CFCB7 /* TableViewAsScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				6B013D8A2F145DF8009662C0 /* Common */,
 				6B9813FE2C3564B1005CFCB7 /* TopViewCell */,
 				6B9813FF2C3564D7005CFCB7 /* MiddelViewCell */,
 				6B9814042C35650D005CFCB7 /* BottomViewCell */,
-				6B9813E62C356352005CFCB7 /* AppDelegate.swift */,
-				6B9813E82C356352005CFCB7 /* SceneDelegate.swift */,
 				6B9813EA2C356352005CFCB7 /* ViewController.swift */,
 				6B9813EC2C356352005CFCB7 /* Main.storyboard */,
-				6B9813EF2C356353005CFCB7 /* Assets.xcassets */,
-				6B9813F12C356353005CFCB7 /* LaunchScreen.storyboard */,
 				6B9813F42C356353005CFCB7 /* Info.plist */,
 			);
 			path = TableViewAsScrollView;
